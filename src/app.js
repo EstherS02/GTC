@@ -10,6 +10,7 @@ app.get('/', (req,res)=>{
         }
         console.log("Hello!");
         console.log("welcome");
+        console.log("Test");
         console.log(response);
         console.log(body);
     });
