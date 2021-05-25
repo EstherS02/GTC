@@ -7,11 +7,11 @@ app.get('/', (req,res)=>{
         if (error) {
             console.log(error);
         }
-        console.log("Hello!")
+        console.log("Hello!");
+        console.log("welcome");
         console.log(response);
         console.log(body);
     });
-
 });
 
 app.listen(4500,()=>{
