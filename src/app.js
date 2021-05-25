@@ -7,6 +7,7 @@ app.get('/', (req,res)=>{
         if (error) {
             console.log(error);
         }
+        console.log("Hello!")
         console.log(response);
         console.log(body);
     });
