@@ -7,7 +7,8 @@ app.get('/', (req,res)=>{
         if (error) {
             console.log(error);
         }
-        console.log(body)
+        console.log(response);
+        console.log(body);
     });
 
 });
