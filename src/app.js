@@ -8,6 +8,7 @@ app.get('/', (req,res)=>{
             console.log(error);
         }
         console.log("Hello!")
+        console.log("Good morning!")
         console.log(response);
         console.log(body);
     });
