@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const request = require("request");
+console.log("--------------------------");
 
 app.get('/', (req,res)=>{
     request("http://localhost:8080/api/tasks", function (error, response, body) {
@@ -12,6 +13,7 @@ app.get('/', (req,res)=>{
         console.log(response);
         console.log(body);
     });
+
 });
 
 app.listen(4500,()=>{
