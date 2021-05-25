@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const request = require("request");
-console.log("--------------------------");
+console.log("Welcome to GTC project")
 
 app.get('/', (req,res)=>{
     request("http://localhost:8080/api/tasks", function (error, response, body) {
